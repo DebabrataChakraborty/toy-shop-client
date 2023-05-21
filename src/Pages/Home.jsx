@@ -115,19 +115,19 @@ function Home() {
                   <Card.Img height={300} width={200} variant="top" src="https://i.ibb.co/PxcHKd8/Screenshot-2023-05-21-162927.png" />
                 </Card>
               </div>
-              <div className="col-6">
+              <div className="col-lg-6">
                 <Card>
                   <Card.Img height={300} width={200} variant="top" src="https://i.ibb.co/VtBrMK9/Screenshot-2023-05-21-163127.png" />
                 </Card>
               </div>
             </div>
             <div className="row">
-              <div className="col-6">
+              <div className="col-lg-6">
                 <Card>
                   <Card.Img height={300} width={200} variant="top" src="https://i.ibb.co/0t3nHdv/6795656-R-SET.jpg" />
                 </Card>
               </div>
-              <div className="col-6">
+              <div className="col-lg-6">
                 <Card>
                   <Card.Img height={300} width={200} variant="top" src="https://i.ibb.co/WFhs1Sx/Mc-Farlane-Toys-DC-Multiverse-January-2023-Featured-01.webp" />
                 </Card>

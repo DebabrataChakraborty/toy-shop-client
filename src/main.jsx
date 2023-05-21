@@ -11,6 +11,7 @@ import NewToy from './Pages/NewToy';
 import AllToysComponent from './Pages/Alltoys';
 import Detials from './Pages/Details';
 import MyToy from './Pages/MyToy';
+import Blog from './Pages/Blog';
 
 
 
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
     path: "/mytoys",
     element: <ProtectedRoute><MyToy /></ProtectedRoute>,
   },
+  {
+    path:"/blog",
+    element:<Blog/>
+  }
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
