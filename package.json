@@ -1,5 +1,5 @@
 {
-  "name": "toyshop",
+  "name": "toy-shop",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,12 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
+    "firebase": "^9.22.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-rating-stars-component": "^2.2.0",
     "react-router-dom": "^6.11.2",
-    "sort-by": "^1.2.0"
+    "react-table": "^7.8.0",
+    "sort-by": "^1.2.0",
+    "sweetalert2": "^11.7.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
